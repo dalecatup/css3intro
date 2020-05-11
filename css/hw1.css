@@ -1,0 +1,155 @@
+body{
+    margin:0.5% 2%;
+    padding: 2%;
+}
+header {
+	background-image: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+	background-repeat: no-repeat;
+	background-color: #808000;
+	background-size: cover;
+   	background-position: center top;
+  	padding: 30px;
+}
+h1{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 100%;
+	color: #FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+}
+nav{
+	font-family: "Times New Roman", Times, serif;
+	font-variant: small-lowercase;
+  	text-align: center;
+	font-size: 80%;
+  	color: #000000;
+}
+nav a{
+	font-size: 150%;
+	color: #000000;
+    display: inline-block;
+    width:12%;
+    padding: 5px;
+    margin: 20px;
+    text-decoration: none;
+    border-radius: 7px;
+    background-color: #fafafa;
+}
+.left a{
+	margin-bottom: 20px;
+	background-color: transparent;
+}
+.left a:hover{
+	background-color: transparent;
+}
+.left a:hover img{
+	border-color: #D3D3D3
+}
+a.active{
+    background-color: #D3D3D3;
+    opacity: 1;
+}
+a{
+	background-color: #D3D3D3;
+	color: #000000;
+}
+a:hover{
+	background: #F0FFF0;
+	color: #000000;
+}
+a:focus{
+	background: #2F4F4F;
+	color: #FFFFFF;
+}
+a:active{
+	border: 3px solid #000000;
+}
+aside{
+	background: #808000;
+	box-sizing: padding-box;
+}
+img{
+    width: 160px;
+    margin-bottom: 20px;
+    border: 3px solid #000000;
+}
+main{
+    margin: 0% 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+}
+.left{ 
+ 	padding-top: 30px;
+    padding-bottom:80px;
+    padding-left: 30px;
+    background-color: #808000;
+    float: left;
+    width: 200px;
+}
+.right{
+    width: 83%;
+    float: right;
+}
+section{
+	background: #FFFFFF;
+	float: right;
+	width: 90%;
+}
+h2{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 200%;
+	color: #000080;
+	padding: 10px;
+}
+p{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 120%;
+	text-align: left;
+	padding: 10px;
+}
+table{
+	margin-left: 45px;
+	border:1px;
+	padding: 25px 25px;
+	text-align: left;
+	width: 80%; 
+	font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+th {
+  background-color: #BDB76B; 
+  color: #FFFFFF;
+  padding: 10px 15px;
+  border: 1px solid white;
+  border-bottom: 2px solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-color: #FF7F50;
+ }
+th:nth-child(2){
+	text-align: center;
+}
+th:nth-child(3){
+	text-align: center;
+}
+td{
+	padding: 10px 15px;
+	border: 1px solid white;
+	font-weight: bold;
+	opacity: 0.6;
+}
+td:first-child + td{
+	text-align: center;
+}
+td:nth-child(2) + td{
+	text-align: center;
+}
+tr{
+	background-color: #90EE90;
+	opacity: 0.6;
+	padding: 10px 15px;
+}
+tr:hover{
+	background-color: #F5F5F5;
+	font-style: italic;
+}
